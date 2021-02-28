@@ -23,7 +23,7 @@ jobs:
         # This password you will use when authorizing via SSH 
         # USER_PASS: ${{ secrets.USER_PASS }}
         USER_PASS: ${{ secrets.USER_PASS }}
-        #USER_PASS: matita01
+        #USER_PASS: mypass
 
      - name: Don't kill instace
        if: ${{ failure() }}
